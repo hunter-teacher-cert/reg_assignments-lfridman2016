@@ -1,0 +1,52 @@
+/* Students who need extra support will receive this file on Google Classroom and 
+be instructed to copy and paste into style.css */
+
+/* Define rules for div with ID html-spinner to create a circle. */
+#html-spinner{
+  width:40px;
+  height:40px;
+  border:4px solid #fcd779;
+  border-top:4px solid #ffffff;
+  border-radius:________; /* use border-radius property to turn the div into a circle */
+
+  /* animation properties */
+  transition-property: transform;
+  animation-name: _________ ; 
+  animation-duration: ______ ; 
+  animation-iteration-count: _____________ ;
+  animation-timing-function: linear;
+}
+
+
+@keyframes _________________ {
+    from {transform: rotate(0deg);}
+    _____ {__________: ______________;}
+}
+
+
+/* Rest of page style*/
+body{
+  background:#FABC20;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color:#393D3D;
+}
+
+#container{
+  width:90%;
+  max-width:700px;
+  margin:1em auto;
+  position:relative;
+}
+
+/* spinner positioning */
+
+#html-spinner{
+  position:absolute;
+  top:80px;
+  margin-left:-24px;
+}
+
+#html-spinner{
+  left:25%; 
+}
